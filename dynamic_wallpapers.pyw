@@ -30,13 +30,13 @@ if __name__ == '__main__':
         changeBG('7')
     
 
-    schedule.every().day.at("19:00").do(changeBG,'8')
+    schedule.every().day.at("19:40").do(changeBG,'8')
     schedule.every().day.at("05:00").do(changeBG,'1')
     schedule.every().day.at("06:00").do(changeBG,'2')
     schedule.every().day.at("09:00").do(changeBG,'3')
     schedule.every().day.at("12:00").do(changeBG,'4')
     schedule.every().day.at("16:00").do(changeBG,'5')
-    schedule.every().day.at("17:00").do(changeBG,6)
+    schedule.every().day.at("17:00").do(changeBG,'6')
     schedule.every().day.at("18:00").do(changeBG,'7')
 
     while True:
